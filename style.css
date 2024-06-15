@@ -1,0 +1,38 @@
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+        justify-content: center;
+        justify-items: center;
+    }
+    .grid-item {
+        width: 150px;
+        height: 150px;
+        font-family: "Poetsen One", sans-serif;
+        background-color: #cccccc00;
+        border: 1px solid #3b383868;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        cursor: pointer; 
+    }
+    body {
+        background-image: url('https://raw.githubusercontent.com/ianchen0419/notes/master/img/%E6%BC%B8%E5%B1%A4/05.png');
+        background-size: cover;
+        background-position: center;
+     
+    }
+    .title{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5cm;
+        text-align:center;
+    }
+    .downtext-font{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1cm;
+        text-align:center;
+    }
